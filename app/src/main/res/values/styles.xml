@@ -218,7 +218,7 @@
     </style>
 
     <style name="ToolButton.Dark" parent="BaseImageButton">
-        <item name="android:tint">@color/colorPrimaryDarkMode</item>
+        <item name="android:tint">@color/colorAccentDark</item>
     </style>
 
     <style name="ListMenuButton" parent="BaseImageButton">
@@ -230,7 +230,7 @@
     </style>
 
     <style name="ListMenuButton.Dark" parent="ListMenuButton">
-        <item name="android:tint">@color/colorPrimaryDarkModeDark</item>
+        <item name="android:tint">@color/colorAccentDark</item>
     </style>
 
     <!-- Line Styles -->
@@ -325,11 +325,11 @@
         <item name="android:layout_height">22dp</item>
         <item name="android:layout_marginLeft">4dp</item>
         <item name="android:src">@drawable/icon_help</item>
-        <item name="tint">#e0e0e0</item>
+        <item name="tint">#888888</item>
     </style>
 
     <style name="HelpButton.Dark" parent="HelpButton">
-        <item name="tint">#f0f0f0</item>
+        <item name="tint">#888888</item>
     </style>
 
     <style name="TabLayoutBackground" >
