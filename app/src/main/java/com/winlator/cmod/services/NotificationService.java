@@ -43,8 +43,8 @@ public class NotificationService extends Service {
 		PendingIntent pendingIntent = PendingIntent.getActivity(this, 0, intent, PendingIntent.FLAG_IMMUTABLE);
 		NotificationCompat.Builder builder = new NotificationCompat.Builder(this, MainActivity.NOTIFICATION_CHANNEL_ID)
 			.setSmallIcon(R.drawable.ic_stat_ab_gear_0011)
-			.setContentTitle("Winlator")
-			.setContentText("Winlator is running, do not kill or swipe this notification")
+			.setContentTitle("Proton")
+			.setContentText("Proton is running, do not kill or swipe this notification")
 			.setPriority(NotificationCompat.PRIORITY_LOW)
 		 	.setContentIntent(pendingIntent)
 		 	.setForegroundServiceBehavior(NotificationCompat.FOREGROUND_SERVICE_IMMEDIATE)

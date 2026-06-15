@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     public static final byte EDIT_INPUT_CONTROLS_REQUEST_CODE = 3;
     public static final byte OPEN_DIRECTORY_REQUEST_CODE = 4;
     public static final byte OPEN_IMAGE_REQUEST_CODE = 5;
-    public static final String NOTIFICATION_CHANNEL_ID = "Winlator";
+    public static final String NOTIFICATION_CHANNEL_ID = "Proton";
     public static final int NOTIFICATION_ID = 100;
     private DrawerLayout drawerLayout;
     public final PreloaderDialog preloaderDialog = new PreloaderDialog(this);
@@ -71,8 +71,8 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
     private boolean isDarkMode;
 
     private void createNotificationChannel() {
-    	String name = "Winlator";
-        String description = "Winlator XServer Messages";
+    	String name = "Proton";
+        String description = "Proton XServer Messages";
         int importance = NotificationManager.IMPORTANCE_LOW;
         NotificationChannel channel = new NotificationChannel(NOTIFICATION_CHANNEL_ID, name, importance);
         channel.setDescription(description);
@@ -335,7 +335,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
             ((TextView) dialog.findViewById(R.id.TVAppVersion)).setText(getString(R.string.version) + " " + pInfo.versionName);
 
             String creditsAndThirdPartyAppsHTML = String.join("<br />",
-                    "Winlator Cmod by coffincolors, me (<a href=\"https://github.com/coffincolors/winlator\">Fork</a>, <a href=\"https://github.com/Pipetto-crypto/winlator\">Fork</a>)",
+                    "Proton by coffincolors (<a href=\"https://github.com/coffincolors/winlator\">Fork</a>, <a href=\"https://github.com/Pipetto-crypto/winlator\">Fork</a>)",
                     "Big Picture Mode Music by",
                     "Dale Melvin Blevens III (Fumer)",
                     "---",
