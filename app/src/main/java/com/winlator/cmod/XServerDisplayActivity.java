@@ -492,7 +492,7 @@ public class XServerDisplayActivity extends AppCompatActivity implements Navigat
             };
         }
 
-        preloaderDialog.show(R.string.starting_up);
+        //preloaderDialog.show(R.string.starting_up);
 
         inputControlsManager = new InputControlsManager(this);
         xServer = new XServer(new ScreenInfo(screenSize));

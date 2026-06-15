@@ -22,7 +22,7 @@
         android:focusableInTouchMode="true"
         android:pointerIcon="arrow"
         app:headerLayout="@layout/main_menu_header"
-        app:itemIconTint="#ffffff"
+        app:itemIconTint="#888888"
         app:menu="@menu/xserver_menu"/>
 
     <EditText

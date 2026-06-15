@@ -3,16 +3,4 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="124dp"
-    android:background="#000000"
-    android:paddingLeft="16dp"
-    android:paddingBottom="24dp">
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="left|bottom"
-        android:text="Proton"
-        android:textColor="#ffffff"
-        android:textSize="28sp"
-        android:textStyle="bold" />
-</FrameLayout>
+    android:background="#000000" />

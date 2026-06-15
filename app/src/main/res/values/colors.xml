@@ -11,7 +11,7 @@
     <color name="window_background_color_dark">#000000</color>
     <color name="colorPrimaryDarkMode">#000000</color>
     <color name="colorPrimaryDarkModeDark">#000000</color>
-    <color name="colorAccentDark">#ffffff</color>
+    <color name="colorAccentDark">#888888</color>
     <color name="white">#ffffff</color>
 
     <!-- Additional Colors for Dark Mode -->
